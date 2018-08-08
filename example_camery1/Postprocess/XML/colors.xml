@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colors>
+        <seat_1>
+            <part>1-250</part>
+            <color>blue</color>
+            <transparent>1</transparent>
+        </seat_1>
+        <seat_2>
+            <part>250-500</part>
+            <color>yellow</color>
+            <transparent>0.1</transparent>
+        </seat_2>
+        <seat_100>
+            <part>500-1500</part>
+            <color>gray</color>
+            <transparent>1</transparent>
+        </seat_100>
+        <dummy_200>
+            <part>5000000-5999999</part>
+            <color>Green1</color>
+            <transparent>1</transparent>
+        </dummy_200>
+        <airbag_300>
+            <part>6000000-6999999</part>
+            <color>Red</color>
+            <transparent>1</transparent>
+        </airbag_300>
+        <airbag_301>
+            <part>7000000-7999999</part>
+            <color>Orange</color>
+            <transparent>1</transparent>
+        </airbag_301>
+</colors>

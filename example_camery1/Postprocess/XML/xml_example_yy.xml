@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<postprocessing>
+        <channel id="0000001" name="b_piller_A" type="Y-Y" component="BIW">
+            <curves>
+                <curve2>
+					<curve_id>5</curve_id>
+                    <curve_type>jntforc-Joint</curve_type>
+                    <curve_name>Magnitude_of_force_(mf)</curve_name>
+                    <filter>cfc060</filter>
+					<curve_start>Default</curve_start>
+					<curve_end>Default</curve_end>
+                    <show_min>None</show_min>
+                    <show_max>None</show_max>
+                    <curve_style>0</curve_style>
+                    <curve_width>3</curve_width>
+                    <curve_color>black</curve_color>
+                </curve2>
+                <curve1>
+					<curve_id>9000008</curve_id>
+                    <curve_type>nodout-Node</curve_type>
+                    <curve_name>Magnitude_of_displacement_(md)</curve_name>
+                    <filter>cfc060</filter>
+					<curve_start>Default</curve_start>
+					<curve_end>Default</curve_end>
+                    <show_min>None</show_min>
+                    <show_max>None</show_max>
+                    <curve_style>0</curve_style>
+                    <curve_width>3</curve_width>
+                    <curve_color>black</curve_color>
+                </curve1>
+            </curves>
+            <frame>
+                <window_size>800 600</window_size>
+                <axes_font>Default</axes_font>
+                <label_font>Default</label_font>
+                <title_font>Default</title_font>
+                <x_axes_min>Default</x_axes_min>
+                <x_axes_max>Default</x_axes_max>
+                <y_axes_min>Default</y_axes_min>
+                <y_axes_max>Default</y_axes_max>
+                <x_name>Default</x_name>
+                <y_name>Default</y_name>
+                <x_step>Default</x_step>
+                <y_step>Default</y_step>
+                <limit_curve>True</limit_curve>
+                <limit_name>Test Limit</limit_name>
+                <xlimit_min>0</xlimit_min>
+                <xlimit_max>0.2</xlimit_max>
+                <ylimit_min>700</ylimit_min>
+                <ylimit_max>700</ylimit_max>
+                <limit_color>blue</limit_color>
+            </frame>
+            <animation>
+                <activation>True</activation>
+                <typ>node</typ>
+                <typ_id>9000008</typ_id>
+                <follow>True</follow>
+                <follow_node_ID>777412,771464,5024275</follow_node_ID>
+                <crosssection>True</crosssection>
+                <crosssection_dir>y</crosssection_dir>
+                <scale>0.2</scale>
+                <size>1200 600</size>
+                <gray>None</gray>
+                <transparent>0.2</transparent>
+                <view_dir>isometric</view_dir>
+                <record_step>1</record_step>
+                <record_start>0</record_start>
+                <record_end>50</record_end>
+                <video_typ>gif</video_typ>
+            </animation>
+        </channel>
+</postprocessing>
